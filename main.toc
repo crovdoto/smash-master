@@ -6,6 +6,7 @@
 \contentsline {paragraph}{Dash Attack}{3}{}%
 \contentsline {paragraph}{Up Air}{3}{}%
 \contentsline {paragraph}{Forward Smash}{4}{}%
+\contentsline {paragraph}{Down Smash}{4}{}%
 \contentsline {subsubsection}{\numberline {1.1.2}Matchups}{4}{}%
 \contentsline {paragraph}{Bowser}{4}{}%
 \contentsline {subparagraph}{Zero to Death}{4}{}%
