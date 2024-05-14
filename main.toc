@@ -4,6 +4,7 @@
 \contentsline {paragraph}{Jab}{3}{}%
 \contentsline {paragraph}{Down Tilt}{3}{}%
 \contentsline {paragraph}{Dash Attack}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.2}Matchups}{3}{}%
-\contentsline {paragraph}{Bowser}{3}{}%
+\contentsline {paragraph}{Up Air}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Matchups}{4}{}%
+\contentsline {paragraph}{Bowser}{4}{}%
 \contentsline {subparagraph}{Zero to Death}{4}{}%
