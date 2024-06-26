@@ -74,7 +74,7 @@ Nonetheless, this move is fundamental to Meta Knight's combo game, is hard to re
 	\begin{tabular}{| c | c  c  c | c  c  c | c |}
 		\hline
 		Damage 	&	Startup	& Endlag & Total & BKB 	& KBG 	& 	Angle 	&	Shield Stun	\\
-		16		&	24		&	17	&	41	&	30	&	108 & 	361\deg	&	11 		\\
+		16.0		&	24		&	17	&	41	&	30	&	108 & 	361\deg	&	11 		\\
 		-		&	-		&	-	&	-	&	- 	& 	98 	&	-		&	-		\\
 		\hline
 	\end{tabular}
@@ -108,8 +108,8 @@ As a consequence, Meta Knight's best platform techchase is to either \textit{up 
 	\begin{tabular}{| c | c  c  c | c  c  c |}
 		\hline
 		Damage 	&	Startup	& Endlag & Total & BKB 	& 	KBG & Angle		\\
-		10		&	4		&	33	 &	37	&	50	&	77 & 	35\deg 	\\
-		13		&	9		&	28	 &	-	&	- 	& 	78 	&	-		\\
+		10.0		&	4		&	33	 &	37	&	50	&	77 & 	35\deg 	\\
+		13.0		&	9		&	28	 &	-	&	- 	& 	78 	&	-		\\
 		\hline
 	\end{tabular}
 \end{center}
@@ -122,7 +122,7 @@ The unorthodox angle can sometimes work in Meta Knight's favour, since the move 
 	\begin{tabular}{| c | c  c  c | c  c  c | c |}
 		\hline
 		Damage &	Startup	& Endlag & Total & BKB & KBG & Angle &	Landing Lag	\\
-		10	&	6	&	23	&	43	&	40	&	100 & 	361\deg	&	7 		\\
+		10.0	&	6	&	23	&	43	&	40	&	100 & 	361\deg	&	7 		\\
 		7.5	&	-	&	-	&	-	&	- 	& 	- 	&	-		&	-		\\
 		\hline
 	\end{tabular}
@@ -224,9 +224,9 @@ The grounded version of the move serves as a risky out-of-shield option, a follo
 	\begin{tabular}{| c | c  c | c  c  c |}
 		\hline
 		Damage	&	Startup		&	End		&	BKB		&	KBG		&	FKB		\\
-			9	&		8		&	8		&	0		&	120		&	125		\\
+			9.0	&		8		&	8		&	0		&	120		&	125		\\
 			-	&		-		&	-		&	-		&	-		&	120		\\
-			6	&		9		&	9		&	-		&	-		&	100		\\
+			6.0	&		9		&	9		&	-		&	-		&	100		\\
 			-	&		10		&	12		&	-		&	100		&	68		\\
 			-	&		22		&	27		&	55		&	130		&	0		\\
 		\hline
@@ -275,11 +275,43 @@ Some setups include:
 
 \paragraph{Grabs}
 As one of his most vital whiff-punishes and approaches alongside \textit{dash attack}, Meta Knight has one of the smallest grab-lengths in the game. At a mere 11.5 units, his grab is tied with the likes of \textit{Wii Fit Trainer, Ike \& Diddy Kong}. Thankfully, his ground speed makes up for this. If Meta Knight does manage to grab an opponent, it could quickly become a touch-of-death, as both \textit{d-throw} and \textit{f-throw} have associated zero-to-death combos.
+
+Throw damage is calculated by summation of all the individual instances of damage.
 \paragraph{Forward Throw}
+\begin{center}
+	\begin{tabular}{| c | c c | c c | c |}
+		\hline
+		Damage	&	Startup	&	Total	&	BKB	&	KBG	&	Angle	\\
+		9.0	&	10	&	27	&	50	&	140	&	65\deg	\\		\hline
+	\end{tabular}
+\end{center}
 As Meta Knight's fastest throw, he is able to convert incorrect DI into a ladder-confirm at mid-percentages. This throw also has some niche usage at early percentages against heavies or fast-fallers.
 \paragraph{Backward Throw}
-Alongside \textit{up throw}, this is Meta Knight's most-damaging throw. What differentiates it from up-throw, however, is its combo-potential at early percentages.
+\begin{center}
+	\begin{tabular}{| c | c c | c c | c |}
+		\hline
+		Damage	&	Startup	&	Total	&	BKB	&	KBG	&	Angle	\\
+		10.0	&	18		&	34		&	60	&	140	&	45\deg	\\		\hline
+	\end{tabular}
+\end{center}
+Alongside \textit{up throw}, this is Meta Knight's most-damaging throw. What differentiates it from up-throw, however, is its combo-potential at early percentages - particularly against characters with greater weight or gravity.
 \paragraph{Up Throw}
-An occasional option when all else has failed. KO-ing opponents early off of platforms above makes Meta Knight a more potent threat on stages like \textit{Yoshi's Story \& Battlefield}.
+\begin{center}
+	\begin{tabular}{| c | c c | c c | c |}
+		\hline
+		Damage	&	Startup	&	Total	&	BKB	&	KBG	&	Angle	\\
+		10.0	&	46		&	77		&	70	&	76	&	77\deg	\\		\hline
+	\end{tabular}
+\end{center}
+An occasional option when all else fails. KO-ing opponents off of platforms above makes Meta Knight a more potent threat on stages like \textit{Yoshi's Story \& Battlefield}. For example, Mario on Battlefield dies from $uthrow$ at $148\%$, which is slightly weaker than Kirby's similar $uthrow$.
 \paragraph{Down Throw}
+\begin{center}
+	\begin{tabular}{| c | c c | c c | c |}
+		\hline
+		Damage	&	Startup	&	Total	&	BKB	&	KBG	&	Angle	\\
+		7.5		&	75		&	86		&	50	&	170	&	60\deg	\\		\hline
+	\end{tabular}
+\end{center}
 Meta Knight's most consistent combo-throw. At early-mid percentages it connects quite reliably with most of his toolkit, since a minimum of \textbf{21 frames} is provided as hit advantage.
+
+The long duration makes it reliable for \textit{i-framing} certain time-based moves (e.g. Sephiroth's \textit{Shadow Flare}), or expending time-dependent resources (e.g. the in-game timer \& various projectiles).
